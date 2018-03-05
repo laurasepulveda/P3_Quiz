@@ -172,6 +172,7 @@ exports.playCmd = rl => {
 						log('Fin');
 						log('Fin del examen. Aciertos: ');
 						biglog(`${score}`, 'magenta');
+						rl.prompt();
 					}
 
 				});
