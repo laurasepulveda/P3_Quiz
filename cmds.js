@@ -169,6 +169,7 @@ exports.playCmd = rl => {
 
 					} else {
 						log('INCORRECTO');
+						log('Fin');
 						log('Fin del examen. Aciertos: ');
 						biglog(`${score}`, 'magenta');
 					}
